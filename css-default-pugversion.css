@@ -1,0 +1,66 @@
+body {
+    background-color: #A8D0E6;
+    font-family: ProximaNova-Black;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+  /*  background-image: url("pugInRaincoat.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+
+div{
+    
+}
+
+.day-box.Prep{
+    border: 1px solid yellow;
+}
+.day{
+    border: 2px solid black;
+}
+.person_info{
+    border: none;
+}
+
+.person_image{
+    float:right;
+    padding: 15px;
+}
+
+.username{
+    font-size: 30px;
+    float:right;
+    padding:15px;
+}
+
+
+.day{
+    font-family: Times New Roman;
+    font-size: 35px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.nav {
+    display: block;
+    margin: 0;
+  background-color: #FFFFFF;
+  color: black;
+    padding: 15px;
+    border: none;
+}
+
+
+.nav a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000000;
+}
