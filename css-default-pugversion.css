@@ -4,9 +4,10 @@ body {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
-  /*  background-image: url("pugInRaincoat.jpg");
+    background-image: url("space.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;*/
+    color: white;
 }
 
 div{
@@ -16,6 +17,7 @@ div{
 .day-box.Prep{
     border: 1px solid yellow;
 }
+
 .day{
     border: 2px solid black;
 }
@@ -51,10 +53,9 @@ ul {
 .nav {
     display: block;
     margin: 0;
-  background-color: #FFFFFF;
-  color: black;
+    background-color: #FFFFFF;
+    color: black;
     padding: 15px;
-    border: none;
 }
 
 
@@ -63,4 +64,30 @@ ul {
   padding: 14px 16px;
   text-decoration: none;
   color: #000000;
+}
+
+a{
+    border: 2px solid black;
+    padding: 15px 25px;
+    background-color: #AD2A1A;
+    color:white;
+}
+a:hover{
+    
+    color:white;
+    font-size: 26px;
+    background-color: #C02F1D;
+    background-color: red;
+}
+
+.username{
+    font-family: Times New Roman;
+    color: black;
+}
+.assignment_link{
+    float: right;
+}
+
+.day{
+    float: left;
 }
