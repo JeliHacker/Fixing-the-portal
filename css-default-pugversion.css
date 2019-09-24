@@ -166,6 +166,7 @@ table .username:last-of-type:before{
     width: 60px;
     height: 100px;
 }
+
 .grade:before{
     content: "Grade:";
 }
