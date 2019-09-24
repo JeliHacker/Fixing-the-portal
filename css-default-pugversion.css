@@ -24,7 +24,6 @@ body {
 .assignment-label{
     font-size: 50px;
     clear: right;
-    
 }
 
 .assignment-title{
@@ -85,10 +84,11 @@ ul {
 
 .nav {
     display: block;
-    margin: 5px;
     background-color: grey;
     color: black;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
 }
 
 
@@ -111,10 +111,19 @@ a:hover{
     
     color:white;
     font-size: 26px;
-    background-color: #C02F1D;
-    background-color: red;
-    background-image: url("warpSpeed.jpg");
+    background-color: black;
 }
+
+
+
+
+
+
+/*
+
+USERNAME STUFF
+
+*/
 
 .username{
     font-family: Times New Roman;
@@ -142,6 +151,18 @@ table .username:last-of-type:before{
     content: "Jedi Master";
 }*/
     
+
+/*
+
+USERNAME STUFF
+
+*/
+
+
+
+
+
+
 .assignment_link{
     float: right;
     clear: right;
