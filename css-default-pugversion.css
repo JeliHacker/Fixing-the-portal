@@ -155,3 +155,8 @@ h1 {
   50%  {background-color: black;}
   100% {background-color: #AD2A1A;}
 }
+
+.person-image{
+    width: 60px;
+    height: 100px;
+}
