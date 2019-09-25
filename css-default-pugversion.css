@@ -183,12 +183,6 @@ USERNAME STUFF
 
 
 
-.person-image{
-    width: 60px;
-    height: 100px;
-}
-
-
 
 
 
@@ -200,6 +194,13 @@ table{
 }
 
 
+
+
+/*
+
+ANIMATION
+
+*/
 h1 {
   content: "bad boy bradshaw";
   background-color: black;
@@ -215,6 +216,24 @@ h1 {
   50%  {background-color: blue;}
   100% {background-color: black;}
 }
+
+
+
+
+
+
+
+
+.person-image{
+    width: 60px;
+    height: 100px;
+    float: left;
+}
+
+.person-image:only-child{
+    float: right;
+}
+
 
 
 /*
