@@ -286,7 +286,7 @@ h1 {
 
 
 
-.person-image{
+.person_image{
     width: 60px;
     height: 100px;
     float: left;
@@ -295,7 +295,7 @@ h1 {
 
 
 
-.person-image:only-child{
+.person_image:only-child{
     float: right;
 }
 
