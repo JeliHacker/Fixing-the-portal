@@ -21,6 +21,7 @@ body {
 .day{
     font-size: 42px;
     text-align: center;
+    z-index: 10;
 }
 
 
@@ -28,11 +29,13 @@ body {
 .reading-box{
     text-align: left;
     clear: left;
+    z-index: 5;
 }
 
 .assignment-label{
     font-size: 30px;
     clear: right;
+    z-index: 5;
 }
 
 .assignment-title{
@@ -40,12 +43,14 @@ body {
     font-size: 30px;
     color: white;
     clear: right;
-    
+    float: right;
+    z-index: 5;
 }
 
 
 .grading-box{
     clear: inherit;
+    z-index: 5;
 }
 
 
@@ -105,7 +110,33 @@ body {
     font-size: 30px;
     float:right;
     padding:15px;
+    margin-top: 45px;
+    margin-right: 5px;
 }
+
+.sound{
+    width: 70px;
+    height: 70px;
+    background-image: url(Moon.jpg);
+    background-size: cover;
+    float: right;
+    clear: right;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+
+
+.sound:hover{
+    width: 70px;
+    height: 70px;
+    background-image: url(listen2.jpg);
+    background-size: cover;
+    float: right;
+    clear: right;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+
 
 
 
