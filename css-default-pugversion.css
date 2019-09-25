@@ -57,10 +57,6 @@ body {
     border: none;
 }
 
-.person_image{
-    float:right;
-    padding: 15px;
-}
 
 .username{
     font-size: 30px;
@@ -146,10 +142,10 @@ table .username:last-of-type:before{
     content: "Young Padawan";
     font-size: 22px;
 }
-/*
-table .username:last-of-type:before{
+
+tr .username:last-of-type:before{
     content: "Jedi Master";
-}*/
+}
     
 
 /*
@@ -183,10 +179,18 @@ USERNAME STUFF
 }
 
 
+
+
+
+
 .person-image{
     width: 60px;
     height: 100px;
 }
+
+
+
+
 
 .grade:before{
     content: "Grade:";
@@ -214,12 +218,11 @@ h1 {
 
 label{
     font-size: 40px;
-    line-height: 5px;
-    
+    line-height: 15px;
 }
 
 input{
-    30px;
+    font-size: 30px;
 }
 
 iframe{
