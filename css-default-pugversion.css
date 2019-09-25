@@ -216,9 +216,17 @@ h1 {
   100% {background-color: black;}
 }
 
+
+/*
+
+MY ACCOUNT PAGE
+
+*/
 label{
     font-size: 40px;
     line-height: 15px;
+    clear: left;
+    float: left;
 }
 
 input{
@@ -229,3 +237,8 @@ iframe{
     width: 800px;
     height: 450px;
 }
+
+
+
+
+
