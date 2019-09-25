@@ -290,15 +290,13 @@ h1 {
     width: 60px;
     height: 100px;
     float: left;
-    border-radius: 10px;
 }
 
 
 
-.person_image:only-child{
+.person_image:first-of-type{
     float: right;
 }
-
 
 
 
