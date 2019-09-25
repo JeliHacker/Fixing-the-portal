@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poller+One&display=swap');
+
+
+
 body {
     font-family: ProximaNova-Black;
     font-family: 'Poller One';
@@ -8,13 +13,17 @@ body {
     background-size: contain;
     color: yellow;
     background-color: black;
+    font-family: 'Poller One', cursive;
 }
 
 
 
 .day{
-    font-size: 180px;
+    font-size: 42px;
+    text-align: center;
 }
+
+
 
 .reading-box{
     text-align: left;
@@ -22,7 +31,7 @@ body {
 }
 
 .assignment-label{
-    font-size: 50px;
+    font-size: 30px;
     clear: right;
 }
 
@@ -33,14 +42,48 @@ body {
     clear: right;
     
 }
+
+
 .grading-box{
     clear: inherit;
 }
+
+
 .prep-box{
     clear: left;
     float: right;
     vertical-align: top;
 }
+
+
+.assignment_link{
+    clear: right;
+    float: right;
+    margin-bottom: 10px;
+}
+
+
+
+.day-box{
+    border: 5px solid blue;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -65,10 +108,12 @@ body {
 }
 
 
-.day{
-    font-family: Times New Roman;
-    font-size: 35px;
-}
+
+
+
+
+
+
 
 
 ul {
@@ -109,6 +154,10 @@ a:hover{
     font-size: 26px;
     background-color: black;
 }
+
+
+
+
 
 
 
@@ -159,28 +208,6 @@ USERNAME STUFF
 
 
 
-.assignment_link{
-    float: right;
-    clear: right;
-    margin-bottom: 10px;
-}
-
-.day{
-    float: left;
-}
-
-
-.day-box{
-    border: 5px solid blue;
-    margin: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-
-
-
 
 
 
@@ -224,15 +251,25 @@ h1 {
 
 
 
+
+
+
+
 .person-image{
     width: 60px;
     height: 100px;
     float: left;
 }
 
+
+
 .person-image:only-child{
     float: right;
 }
+
+
+
+
 
 
 
@@ -241,6 +278,11 @@ h1 {
 MY ACCOUNT PAGE
 
 */
+
+
+
+
+
 label{
     font-size: 40px;
     line-height: 15px;
