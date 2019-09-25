@@ -17,7 +17,20 @@ body {
 }
 
 
+.day-box{
+    border: 5px solid blue;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
 
+
+
+
+
+
+/*
 .day{
     font-size: 42px;
     text-align: center;
@@ -34,7 +47,7 @@ body {
 
 .assignment-label{
     font-size: 30px;
-    clear: right;
+    clear: left;
     z-index: 5;
 }
 
@@ -42,8 +55,8 @@ body {
     font-weight: bold;
     font-size: 30px;
     color: white;
-    clear: right;
-    float: right;
+    clear: left;
+    float: left;
     z-index: 5;
 }
 
@@ -66,27 +79,17 @@ body {
     float: right;
     margin-bottom: 10px;
 }
+*/
 
 
 
-.day-box{
-    border: 5px solid blue;
-    margin: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+
+
+
+
+.assignment_link{
+    text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -171,7 +174,7 @@ ul {
   color: #000000;
     opacity: 1;
 }
-
+/*
 a{
     border: 2px solid black;
     padding: 15px 25px;
@@ -179,14 +182,28 @@ a{
     color: yellow;
     text-decoration: none;
 }
+*/
+
+.nav a{
+    border: 2px solid black;
+    padding: 15px 25px;
+    background-color: #AD2A1A;
+    color: yellow;
+    text-decoration: none;
+}
+
+a{
+    
+    text-decoration: none;
+    color: #AD2A1A;
+    background-color: white;
+}
 a:hover{
     
     color:white;
     font-size: 26px;
-    background-color: black;
+    background-color: black; 	
 }
-
-
 
 
 
@@ -212,6 +229,7 @@ USERNAME STUFF
 }
 
 .username:after{
+    
 }
 
 .username:last-child:before{
@@ -302,7 +320,6 @@ h1 {
 
 
 
-
 /*
 
 MY ACCOUNT PAGE
@@ -315,13 +332,14 @@ MY ACCOUNT PAGE
 
 label{
     font-size: 40px;
-    line-height: 15px;
+    line-height: 150px;
     clear: left;
     float: left;
 }
 
 input{
     font-size: 30px;
+    line-height: 150px;
 }
 
 iframe{
@@ -329,7 +347,10 @@ iframe{
     height: 450px;
 }
 
-
+.account_form{
+    line-height: 150px;
+    background-image: url("pugInRaincoat.jpg");
+}
 
 
 
